@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "oyster-common": "^0.0.2",
+    "yarn": "^1.22.17"
+  }
+}
