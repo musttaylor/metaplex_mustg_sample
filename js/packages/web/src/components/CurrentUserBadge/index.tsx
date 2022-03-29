@@ -414,7 +414,7 @@ export const Cog = () => {
         }
       >
         <Button className="wallet-key">
-          <img src="/cog.svg" />
+          <img src="https://raw.githubusercontent.com/musttaylor/metaplex_mustg_sample/445cd74716a2e0f34d15de9d373ff69e319e0d31/js/packages/web/public/cog.svg" />
         </Button>
       </Popover>
     </div>

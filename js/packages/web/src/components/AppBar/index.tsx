@@ -52,7 +52,7 @@ export const MetaplexMenu = () => {
       <>
         <Modal
           //  title={<img src={'/metaplex-logo.svg'} />}
-          title={<img src={'/mustg_logo_horizontal.jpg'} />}
+          title={<img src={'https://github.com/musttaylor/metaplex_mustg_sample/blob/master/js/packages/web/public/mustg_logo_horizontal.jpg?raw=true'} />}
           visible={isModalVisible}
           footer={null}
           className={'modal-box'}
@@ -111,7 +111,7 @@ export const MetaplexMenu = () => {
 export const LogoLink = () => {
   return (
     <Link to={`/`}>
-      <img src={'/mustg_logo_horizontal.jpg'} />
+      <img width='268' height='44' src={'https://github.com/musttaylor/metaplex_mustg_sample/blob/master/js/packages/web/public/mustg_logo_horizontal.jpg?raw=true'} />
     </Link>
   );
 };

@@ -30,7 +30,8 @@ export const SalesListView = () => {
   return (
     <>
       <Banner
-        src="/mustg_banner_2.jpg"
+        //src="/mustg_banner_2.jpg"
+        src='https://raw.githubusercontent.com/musttaylor/metaplex_mustg_sample/445cd74716a2e0f34d15de9d373ff69e319e0d31/js/packages/web/public/mustg_banner_2.jpg'
         headingText="The amazing world of MUST Games."
         subHeadingText="Buy exclusive MUST Games NFTs."
         //actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}

@@ -566,7 +566,7 @@ export function Notifications() {
 
   const justContent = (
     <Popover placement="bottomLeft" content={content} trigger="click">
-      <img src={'/bell.svg'} style={{ cursor: 'pointer' }} />
+      <img src={'https://raw.githubusercontent.com/musttaylor/metaplex_mustg_sample/445cd74716a2e0f34d15de9d373ff69e319e0d31/js/packages/web/public/bell.svg'} style={{ cursor: 'pointer' }} />
       {!!notifications.length && <div className="mobile-notification">{notifications.length - 1}</div>}
     </Popover>
   );
